@@ -1,0 +1,23 @@
+{
+	"name": "feedback-analysis-app",
+	"version": "1.0.0",
+	"description": "A modular backend web app for feedback analysis",
+	"main": "src/app.ts",
+	"scripts": {
+		"start": "ts-node src/app.ts",
+		"build": "tsc",
+		"start:prod": "node dist/app.js"
+	},
+	"dependencies": {
+		"fastify": "^4.17.0",
+		"natural": "^6.2.0",
+		"node-kmeans": "^1.1.9"
+	},
+	"devDependencies": {
+		"@types/node": "^18.16.3",
+		"@types/natural": "^5.1.2",
+		"@types/node-kmeans": "^1.1.0",
+		"typescript": "^5.0.4",
+		"ts-node": "^10.9.1"
+	}
+}
